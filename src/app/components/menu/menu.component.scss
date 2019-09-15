@@ -1,0 +1,16 @@
+.menu-body {
+  min-width: 800px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  .menu-item {
+    text-align: center;
+    margin-right: 10px;
+  }
+  .menu-item:last-of-type {
+    margin-right: 0;
+  }
+  .menu-user {
+    margin-right: 20px;
+  }
+}
